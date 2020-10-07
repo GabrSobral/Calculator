@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Calculator</title>
+</head>
+<body>
+    <div id="calculator">
+        <div id="view">
+            <div id="accomulator"></div>
+            <div id="total"></div>
+        </div>
+        <div class="buttons">
+            <div class="button two" onclick="ClearAll()">AC</div>
+            <div class="button" onclick="Clear()">C</div>
+            <div class="button" onclick="Calc(' / ')">/</div>
+
+
+            <div class="button" onclick="Add(7)">7</div>
+            <div class="button" onclick="Add(8)">8</div>
+            <div class="button" onclick="Add(9)">9</div>
+            <div class="button" onclick="Calc(' + ')">+</div>
+
+
+            <div class="button" onclick="Add(4)">4</div>
+            <div class="button" onclick="Add(5)">5</div>
+            <div class="button" onclick="Add(6)">6</div>
+            <div class="button" onclick="Calc(' - ')">-</div>
+
+
+            <div class="button" onclick="Add(1)">1</div>
+            <div class="button" onclick="Add(2)">2</div>
+            <div class="button" onclick="Add(3)">3</div>
+            <div class="button" onclick="Calc(' x ')">x</div>
+
+
+            <div class="button" onclick="Add(0)">0</div>
+            <div class="button" onclick="Add('.')">.</div>
+            <div class="button two" onclick='Resultado()'>=</div>
+            
+
+
+            <script src='script.js'></script>
+        </div>
+    </div>
+</body>
+</html>
